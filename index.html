@@ -11,240 +11,261 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- ===================== ACA TU LINK CSS ===================== -->
     <title>TAWENO SUSHI</title>
   </head>
 
   <body>
-    <!-- ===================== INICIO HEADER ===================== -->
 
     <nav class="navbar">
-      <a href="#">TAWENO SUSHI</a>
-      <ul class="enlaces">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Menú</a></li>
-        <li><a href="#">Sobre nosotros</a></li>
-        <li><a href="#">Contacto</a></li>
+      <a href="#" class="navbar-logo">TAWENO SUSHI</a>
+      <ul>
+        <li><a href="#" class="enlaces">Inicio</a></li>
+        <li><a href="#" class="enlaces">Menú</a></li>
+        <li><a href="#" class="enlaces">Sobre nosotros</a></li>
+        <li><a href="#" class="enlaces">Contacto</a></li>
       </ul>
-      <div class="pill">
-        <a href="#">Reservar</a>
-      </div>
+      <a href="#" class="boton-reservar">Reservar</a>
     </nav>
+
     <header class="header">
-      <div class="bloque-texto1">
-        <span>Sushi auténtico desde 2017</span>
-      </div>
-      <h1>Sabor japonés<br /><span>en cada pieza</span></h1>
-      <div class="parrdesc">
-        <p>
-          Ingredientes frescos del día. Tradición y técnica en cada preparación.
-          Dos locales en Chile.
-        </p>
-      </div>
-      <div class="contenedor-botones">
-        <div class="menu-boton">
-          <a href="#">Ver menú completo</a>
-        </div>
-        <div class="mesa-boton">
-          <a href="#">Reservar mesa</a>
+      <div class="header-inner">
+        <div class="bloque-texto1">
+          <span class="pill">Sushi auténtico desde 2017</span>
+          <h1>Sabor japonés<br /><span>en cada pieza</span></h1>
+          <p class="parrdesc">
+            Ingredientes frescos del día. Tradición y técnica en cada preparación.
+            Dos locales en Chile.
+          </p>
+          <div class="contenedor-botones">
+            <a href="#" class="menu-boton">Ver menú completo</a>
+            <a href="#" class="mesa-boton">Reservar mesa</a>
+          </div>
         </div>
       </div>
     </header>
-    <!-- ===================== FIN HEADER ===================== -->
-
-    <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
 
     <section class="nuestro-menu">
-      <header class="encabezado-menu">
-        <span>Selección del chef</span>
-        <h2>Nuestro menú</h2>
-      </header>
-
-      <a href="#">Ver todos los productos</a>
-      <div class="tarjetas">
-        <div class="contenedor-tarjeta1">
-          <img src="img/sushi1.jpg" alt="Nigiri Salmón" />
-
-          <h3>Nigiri Salmón</h3>
-          <p>Arroz con salmón fresco y wasabi.</p>
-          <span>$4.990</span>
-          <button type="button">+</button>
+      <div class="nuestro-menu-inner">
+        <div class="encabezado-menu">
+          <div class="encabezado-menu-titulo">
+            <span>Selección del chef</span>
+            <h2>Nuestro menú</h2>
+          </div>
+          <a href="#" class="ver-todos">Ver todos los productos</a>
         </div>
-        <div class="contenedor-tarjeta2">
-          <img src="img/sushi2.jpg" alt="Roll Spicy Tuna" />
-          <h3>Roll Spicy Tuna</h3>
-          <p>Atún, pepino, palta y sésamo.</p>
-          <span>$6.490</span>
-          <button type="button">+</button>
-        </div>
-        <div class="contenedor-tarjeta3">
-          <img src="img/sushi3.jpg" alt="Tempura Roll" />
-          <h3>Tempura Roll</h3>
-          <p>Camarón tempura y salsa teriyaki.</p>
-          <span>$6.990</span>
-          <button type="button">+</button>
-        </div>
-        <div class="contenedor-tarjeta4">
-        <img src="img/sushi4.jpg" alt="Sashimi Mix" />
-        <h3>Sashimi Mix</h3>
-        <p>12 piezas premium variadas.</p>
-        <span>$9.990</span>
-        <button type="button">+</button>
+        <div class="fila-tarjetas">
+          <div class="tarjetas contenedor-tarjeta1">
+            <img src="img/sushi1.jpg" alt="Nigiri Salmón" />
+            <div class="card-info">
+              <h3>Nigiri Salmón</h3>
+              <p>Arroz con salmón fresco y wasabi.</p>
+              <div class="pie-tarjeta">
+                <span>$4.990</span>
+                <button type="button">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="tarjetas contenedor-tarjeta2">
+            <img src="img/sushi2.jpg" alt="Roll Spicy Tuna" />
+            <div class="card-info">
+              <h3>Roll Spicy Tuna</h3>
+              <p>Atún, pepino, palta y sésamo.</p>
+              <div class="pie-tarjeta">
+                <span>$6.490</span>
+                <button type="button">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="tarjetas contenedor-tarjeta3">
+            <img src="img/sushi3.jpg" alt="Tempura Roll" />
+            <div class="card-info">
+              <h3>Tempura Roll</h3>
+              <p>Camarón tempura y salsa teriyaki.</p>
+              <div class="pie-tarjeta">
+                <span>$6.990</span>
+                <button type="button">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="tarjetas">
+            <img src="img/sushi4.jpg" alt="Sashimi Mix" />
+            <div class="card-info">
+              <h3>Sashimi Mix</h3>
+              <p>12 piezas premium variadas.</p>
+              <div class="pie-tarjeta">
+                <span>$9.990</span>
+                <button type="button">+</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- ===================== FIN NUESTRO MENÚ ===================== -->
 
-    <!-- ===================== INICIO LOS MÁS PEDIDOS ===================== -->
     <section class="mas-pedidos">
-      <div class="columna1">
-    <span>Favoritos</span>
-    <h2>Los más pedidos</h2>
-    <p>
-      Los platos que nuestros clientes eligen semana a semana. Preparados al
-      momento con ingredientes frescos.
-    </p>
+      <div class="mas-pedidos-inner">
+        <div class="columna1">
+          <span>Favoritos</span>
+          <h2>Los más pedidos</h2>
+          <p>
+            Los platos que nuestros clientes eligen semana a semana. Preparados al
+            momento con ingredientes frescos.
+          </p>
+        </div>
+        <ul class="lista-pedidos">
+          <li class="item-pedido">
+            <img src="img/sushi1.jpg" alt="Miniatura Nigiri Salmón" />
+            <div>
+              <span class="item-pedido-nombre">Nigiri Salmón</span>
+              <span class="item-pedido-desc">Arroz con salmón fresco y wasabi</span>
+            </div>
+            <div class="item-pedido-meta">
+              <span class="item-pedido-precio">$4.990</span>
+              <span class="item-pedido-conteo">+320 pedidos</span>
+            </div>
+          </li>
+          <li class="item-pedido">
+            <img src="img/sushi2.jpg" alt="Miniatura Roll Spicy Tuna" />
+            <div>
+              <span class="item-pedido-nombre">Roll Spicy Tuna</span>
+              <span class="item-pedido-desc">Atún, pepino, palta y sésamo</span>
+            </div>
+            <div class="item-pedido-meta">
+              <span class="item-pedido-precio">$6.490</span>
+              <span class="item-pedido-conteo">+210 pedidos</span>
+            </div>
+          </li>
+          <li class="item-pedido">
+            <img src="img/sushi3.jpg" alt="Miniatura Tempura Roll" />
+            <div>
+              <span class="item-pedido-nombre">Tempura Roll</span>
+              <span class="item-pedido-desc">Camarón tempura y salsa teriyaki</span>
+            </div>
+            <div class="item-pedido-meta">
+              <span class="item-pedido-precio">$6.990</span>
+              <span class="item-pedido-conteo">+185 pedidos</span>
+            </div>
+          </li>
+        </ul>
       </div>
-    <ul>
-      <li>
-        <img src="#" alt="Miniatura Nigiri Salmón" />
-        <span>Nigiri Salmón</span>
-        <small>Arroz con salmón fresco y wasabi</small>
-        <span>$4.990</span>
-        <small>+320 pedidos</small>
-      </li>
-      <li>
-        <img src="#" alt="Miniatura Roll Spicy Tuna" />
-        <span>Roll Spicy Tuna</span>
-        <small>Atún, pepino, palta y sésamo</small>
-        <span>$6.490</span>
-        <small>+210 pedidos</small>
-      </li>
-      <li>
-        <img src="#" alt="Miniatura Tempura Roll" />
-        <span>Tempura Roll</span>
-        <small>Camarón tempura y salsa teriyaki</small>
-        <span>$6.990</span>
-        <small>+185 pedidos</small>
-      </li>
-    </ul>
     </section>
-    <!-- ===================== FIN LOS MÁS PEDIDOS ===================== -->
 
-    <!-- ===================== INICIO SOBRE NOSOTROS ===================== -->
+    <section class="sobre-nosotros">
+      <div class="sobre-nosotros-inner">
+        <div class="columna-texto">
+          <span>Nuestra historia</span>
+          <h2>Sobre nosotros</h2>
+          <p>
+            En <strong>TAWENO SUSHI</strong> creemos que la gastronomía japonesa es un
+            arte. Desde nuestra apertura, hemos trabajado para traer a Chile la
+            autenticidad del sushi tradicional, usando ingredientes frescos
+            seleccionados cada día.
+          </p>
+          <p>
+            Nuestro equipo combina la precisión de la cocina japonesa con el calor de
+            la hospitalidad latinoamericana. Cada pieza lleva dedicación, respeto por
+            la tradición y el compromiso de ofrecerte siempre la mejor experiencia.
+          </p>
+        </div>
+        <div class="panel-stats">
+          <div class="stat-item">
+            <span class="stat-numero">8+</span>
+            <span class="stat-etiqueta">Años</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-numero">2</span>
+            <span class="stat-etiqueta">Locales</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-numero">40+</span>
+            <span class="stat-etiqueta">Productos</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <span>Nuestra historia</span>
-    <h2>Sobre nosotros</h2>
-    <p>
-      En <strong>TAWENO SUSHI</strong> creemos que la gastronomía japonesa es un
-      arte. Desde nuestra apertura, hemos trabajado para traer a Chile la
-      autenticidad del sushi tradicional, usando ingredientes frescos
-      seleccionados cada día.
-    </p>
-    <p>
-      Nuestro equipo combina la precisión de la cocina japonesa con el calor de
-      la hospitalidad latinoamericana. Cada pieza lleva dedicación, respeto por
-      la tradición y el compromiso de ofrecerte siempre la mejor experiencia.
-    </p>
+    <section class="contacto">
+      <div class="contacto-inner">
+        <div class="columna-info">
+          <span>Escríbenos</span>
+          <h2>Contáctanos</h2>
+          <p>
+            Reservas, consultas o simplemente salúdanos. Respondemos en menos de 24
+            horas.
+          </p>
+          <ul class="lista-datos">
+            <li>Teléfono: +56 9 1234 5678</li>
+            <li>Correo: <a href="mailto:hola@tawenosushi.cl">hola@tawenosushi.cl</a></li>
+            <li>Horario: Mar–Dom 12:00–22:00</li>
+          </ul>
+        </div>
+        <div class="tarjeta-formulario">
+          <form class="formulario" action="#" method="post">
+            <div class="campo">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="campo">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+            </div>
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-    <span>8+</span>
-    <small>Años</small>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-columnas">
+          <div class="footer-marca">
+            <h3>TAWENO SUSHI</h3>
+            <p>
+              Sushi auténtico preparado con ingredientes frescos del día. Tradición
+              japonesa en cada pieza.
+            </p>
+          </div>
+          <div class="footer-nav">
+            <h4>LOCALES</h4>
+            <ul>
+              <li>Av. Providencia 2345, Santiago</li>
+              <li>Baquedano 890, Valparaíso</li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h4>MENÚ</h4>
+            <ul>
+              <li><a href="#">Rolls</a></li>
+              <li><a href="#">Nigiri</a></li>
+              <li><a href="#">Sashimi</a></li>
+              <li><a href="#">Bebidas</a></li>
+              <li><a href="#">Postres</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h4>INFORMACIÓN</h4>
+            <ul>
+              <li><a href="#">Sobre nosotros</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-barra">
+          <p class="footer-copyright">© 2025 TAWENO SUSHI SpA. Todos los derechos reservados.</p>
+          <ul class="footer-redes">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">X</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-    <span>2</span>
-    <small>Locales</small>
-
-    <span>40+</span>
-    <small>Productos</small>
-
-    <!-- ===================== FIN SOBRE NOSOTROS ===================== -->
-
-    <!-- ===================== INICIO CONTACTO ===================== -->
-
-    <span>Escríbenos</span>
-    <h2>Contáctanos</h2>
-    <p>
-      Reservas, consultas o simplemente salúdanos. Respondemos en menos de 24
-      horas.
-    </p>
-    <ul>
-      <li>Teléfono: +56 9 1234 5678</li>
-      <li>
-        Correo: <a href="mailto:hola@tawenosushi.cl">hola@tawenosushi.cl</a>
-      </li>
-      <li>Horario: Mar–Dom 12:00–22:00</li>
-    </ul>
-
-    <form action="#" method="post">
-      <label for="nombre">Nombre completo</label>
-      <input
-        type="text"
-        id="nombre"
-        name="nombre"
-        placeholder="Tu nombre"
-        required
-      />
-
-      <label for="email">Correo electrónico</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="tucorreo@ejemplo.com"
-        required
-      />
-
-      <label for="mensaje">Mensaje</label>
-      <textarea
-        id="mensaje"
-        name="mensaje"
-        rows="5"
-        placeholder="Escribe tu mensaje aquí..."
-        required
-      ></textarea>
-
-      <button type="submit">Enviar mensaje</button>
-    </form>
-
-    <!-- ===================== FIN CONTACTO ===================== -->
-
-    <!-- ===================== INICIO FOOTER ===================== -->
-
-    <h3>TAWENO SUSHI</h3>
-    <p>
-      Sushi auténtico preparado con ingredientes frescos del día. Tradición
-      japonesa en cada pieza.
-    </p>
-
-    <h4>Locales</h4>
-    <ul>
-      <li>Av. Providencia 2345, Santiago</li>
-      <li>Baquedano 890, Valparaíso</li>
-    </ul>
-
-    <h4>Menú</h4>
-    <ul>
-      <li>Rolls</li>
-      <li>Nigiri</li>
-      <li>Sashimi</li>
-      <li>Bebidas</li>
-      <li>Postres</li>
-    </ul>
-
-    <h4>Información</h4>
-    <ul>
-      <li><a href="#">Sobre nosotros</a></li>
-      <li><a href="#">Términos y condiciones</a></li>
-      <li><a href="#">Política de privacidad</a></li>
-      <li><a href="#">Preguntas frecuentes</a></li>
-    </ul>
-
-    <p>© 2025 TAWENO SUSHI SpA. Todos los derechos reservados.</p>
-    <ul>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">X</a></li>
-    </ul>
-
-    <!-- ===================== FIN FOOTER ===================== -->
   </body>
 </html>
